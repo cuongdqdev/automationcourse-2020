@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a268147-51f9-4ff8-baa3-9b8503e3aae6" name="Default Changelist" comment="" />
+    <list default="true" id="1a268147-51f9-4ff8-baa3-9b8503e3aae6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/pageobject/AutomationFcPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/exercise/CssPratice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/exercise/WebBrowserPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/exercise/WebBrowserPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/exercise/WebElementPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/exercise/WebElementPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/pageobject/GuruPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/pageobject/GuruPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/exercise/CssPratice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/exercise/WebBrowserPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/exercise/WebBrowserPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/exercise/WebElementPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/exercise/WebElementPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/pageobject/GuruPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/pageobject/GuruPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/util/Utils.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/webdriver" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,20 +60,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.XpathPractice">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.base.HelloWorld" />
-      <module name="AUTOMATION-COURSE-2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.WebElementPractice">
     <configuration name="XpathPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.exercise.XpathPractice" />
       <module name="AUTOMATION-COURSE-2020" />
@@ -72,17 +74,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Base" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebBrowserPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AUTOMATION-COURSE-2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.base.*" />
+          <option name="PATTERN" value="com.example.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.exercise" />
-      <option name="MAIN_CLASS_NAME" value="com.example.base.Base" />
+      <option name="MAIN_CLASS_NAME" value="com.example.exercise.WebBrowserPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebElementPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AUTOMATION-COURSE-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.example.exercise.WebElementPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebElementPractice.tc001_verifyDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AUTOMATION-COURSE-2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.exercise" />
+      <option name="MAIN_CLASS_NAME" value="com.example.exercise.WebElementPractice" />
+      <option name="METHOD_NAME" value="tc001_verifyDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -108,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebElementPractice" />
+        <item itemvalue="TestNG.WebElementPractice.tc001_verifyDisplayed" />
+        <item itemvalue="TestNG.WebBrowserPractice" />
         <item itemvalue="TestNG.XpathPractice" />
         <item itemvalue="Application.XpathPractice" />
-        <item itemvalue="TestNG.Base" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589122277809</updated>
       <workItem from="1589122279759" duration="8573000" />
-      <workItem from="1589155624328" duration="4631000" />
+      <workItem from="1589155624328" duration="11146000" />
     </task>
     <servers />
   </component>
@@ -134,30 +172,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589124517921">
+    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589168449578">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589124517921" />
+    <state x="155" y="93" width="1288" height="678" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589168449578" />
     <state x="554" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589122801861">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="554" y="17" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589122801861" />
-    <state width="1431" height="215" key="GridCell.Tab.0.bottom" timestamp="1589160083020">
+    <state width="1431" height="214" key="GridCell.Tab.0.bottom" timestamp="1589168540187">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="215" key="GridCell.Tab.0.bottom/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589160083020" />
-    <state width="1431" height="215" key="GridCell.Tab.0.center" timestamp="1589160083020">
+    <state width="1431" height="214" key="GridCell.Tab.0.bottom/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589168540187" />
+    <state width="1431" height="214" key="GridCell.Tab.0.center" timestamp="1589168540187">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="215" key="GridCell.Tab.0.center/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589160083020" />
-    <state width="1431" height="215" key="GridCell.Tab.0.left" timestamp="1589160083019">
+    <state width="1431" height="214" key="GridCell.Tab.0.center/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589168540187" />
+    <state width="1431" height="214" key="GridCell.Tab.0.left" timestamp="1589168540187">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="215" key="GridCell.Tab.0.left/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589160083019" />
-    <state width="1431" height="215" key="GridCell.Tab.0.right" timestamp="1589160083020">
+    <state width="1431" height="214" key="GridCell.Tab.0.left/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589168540187" />
+    <state width="1431" height="214" key="GridCell.Tab.0.right" timestamp="1589168540187">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="215" key="GridCell.Tab.0.right/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589160083020" />
+    <state width="1431" height="214" key="GridCell.Tab.0.right/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589168540187" />
+    <state width="1431" height="276" key="GridCell.Tab.1.bottom" timestamp="1589167204057">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="276" key="GridCell.Tab.1.bottom/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589167204057" />
+    <state width="1431" height="276" key="GridCell.Tab.1.center" timestamp="1589167204057">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="276" key="GridCell.Tab.1.center/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589167204057" />
+    <state width="1431" height="276" key="GridCell.Tab.1.left" timestamp="1589167204057">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="276" key="GridCell.Tab.1.left/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589167204057" />
+    <state width="1431" height="276" key="GridCell.Tab.1.right" timestamp="1589167204057">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="276" key="GridCell.Tab.1.right/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1589167204057" />
     <state x="280" y="7" key="SettingsEditor" timestamp="1589123892677">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

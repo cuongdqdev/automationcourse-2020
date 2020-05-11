@@ -16,6 +16,10 @@ public class GuruPage {
     public String randomFirstName = Utils.generateRandomAlphabeticString();
     public String randomLastName = Utils.generateRandomAlphabeticString();
     public String randomEmailAddress = Utils.generateRandomAlphanumericString() + "@email.com";
+    public String loginTitle = "Customer Login";
+    public String registerTitle = "Create New Customer Account";
+    public String loginUrl = url + "index.php/customer/account/login/";
+    public String registerUrl = url + "index.php/customer/account/create/";
 
     public String errorRequiredEmailMsg = "This is a required field.";
     public String errorRequiredPasswordMsg = "This is a required field.";
